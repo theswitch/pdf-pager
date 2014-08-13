@@ -1,0 +1,418 @@
+{
+    "PageLabels": [
+        {
+            "prefix": "cover",
+            "pageStart": 1
+        },
+        {
+            "style": "r",
+            "start": 3,
+            "pageStart": 2
+        },
+        {
+            "style": "D",
+            "pageStart": 30
+        }
+    ],
+    "Outlines": [
+        { "title": "Accuracy and Stability of Numerical Algorithms", "page": "iii" },
+        { "title": "List of Figures", "page": "xvii" },
+        { "title": "List of Tables", "page": "xix" },
+        { "title": "Preface to Second Edition", "page": "xxi" },
+        { "title": "Preface to First Edition", "page": "xxv" },
+        { "title": "About the Dedication", "page": "xxix" },
+        { "title": "1 Principles of Finite Precision Computation", "page": "1", "children": [
+            { "title": "1.1 Notation and Background", "page": "2" },
+            { "title": "1.2 Relative Error and Significant Digits", "page": "3" },
+            { "title": "1.3 Sources of Errors", "page": "5" },
+            { "title": "1.4 Precision Versus Accuracy", "page": "6" },
+            { "title": "1.5 Backward and Forward Errors", "page": "6" },
+            { "title": "1.6 Conditioning", "page": "8" },
+            { "title": "1.7 Cancellation", "page": "9" },
+            { "title": "1.8 Solving a Quadratic Equation", "page": "10" },
+            { "title": "1.9 Computing the Sample Variance", "page": "11" },
+            { "title": "1.10 Solving Linear Equations", "page": "12", "children": [
+                { "title": "1.10.1 GEPP Versus Cramer's Rule", "page": "13" }
+                ] },
+            { "title": "1.11 Accumulation of Rounding Errors", "page": "14" },
+            { "title": "1.12 Instability Without Cancellation", "page": "14", "children": [
+                { "title": "1.12.1 The Need for Pivoting", "page": "15" },
+                { "title": "1.12.2 An Innocuous Calculation?", "page": "15" },
+                { "title": "1.12.3 An Infinite Sum", "page": "16" }
+                ] },
+            { "title": "1.13 Increasing the Precision", "page": "17" },
+            { "title": "1.14 Cancellation of Rounding Errors", "page": "19", "children": [
+                { "title": "1.14.1 Computing (e^x - 1)/x", "page": "19" },
+                { "title": "1.14.2 QR Factorization", "page": "21" }
+                ] },
+            { "title": "1.15 Rounding Errors Can Be Beneficial", "page": "22" },
+            { "title": "1.16 Stability of an Algorithm Depends on the Problem", "page": "24" },
+            { "title": "1.17 Rounding Errors Are Not Random", "page": "25" },
+            { "title": "1.18 Designing Stable Algorithms", "page": "26" },
+            { "title": "1.19 Misconceptions", "page": "28" },
+            { "title": "1.20 Rounding Errors in Numerical Analysis", "page": "28" },
+            { "title": "1.21 Notes and References", "page": "28" },
+            { "title": "Problems", "page": "31" }
+            ] },
+        { "title": "2 Floating Point Arithmetic", "page": "35", "children": [
+            { "title": "2.1 Floating Point Number System", "page": "36" },
+            { "title": "2.2 Model of Arithmetic", "page": "40" },
+            { "title": "2.3 IEEE Arithmetic", "page": "41" },
+            { "title": "2.4 Aberrant Arithmetics", "page": "43" },
+            { "title": "2.5 Exact Subtraction", "page": "45" },
+            { "title": "2.6 Fused Multiply-Add Operation", "page": "46" },
+            { "title": "2.7 Choice of Base and Distribution of Numbers", "page": "47" },
+            { "title": "2.8 Statistical Distribution of Rounding Errors", "page": "48" },
+            { "title": "2.9 Alternative Number Systems", "page": "49" },
+            { "title": "2.10 Elementary Functions", "page": "50" },
+            { "title": "2.11 Accuracy Tests", "page": "51" },
+            { "title": "2.12 Notes and References", "page": "52" },
+            { "title": "Problems", "page": "57" }
+            ] },
+        { "title": "3 Basics", "page": "61", "children": [
+            { "title": "3.1 Inner and Outer Products", "page": "62" },
+            { "title": "3.2 The Purpose of Rounding Error Analysis", "page": "65" },
+            { "title": "3.3 Running Error Analysis", "page": "65" },
+            { "title": "3.4 Notation for Error Analysis", "page": "67" },
+            { "title": "3.5 Matrix Multiplication", "page": "69" },
+            { "title": "3.6 Complex Arithmetic", "page": "71" },
+            { "title": "3.7 Miscellany", "page": "73" },
+            { "title": "3.8 Error Analysis Demystified", "page": "74" },
+            { "title": "3.9 Other Approaches", "page": "76" },
+            { "title": "3.10 Notes and References", "page": "76" },
+            { "title": "Problems", "page": "77" }
+            ] },
+        { "title": "4 Summation", "page": "79", "children": [
+            { "title": "4.1 Summation Methods", "page": "80" },
+            { "title": "4.2 Error Analysis", "page": "81" },
+            { "title": "4.3 Compensated Summation", "page": "83" },
+            { "title": "4.4 Other Summation Methods", "page": "88" },
+            { "title": "4.5 Statistical Estimates of Accuracy", "page": "88" },
+            { "title": "4.6 Choice of Method", "page": "89" },
+            { "title": "4.7 Notes and References", "page": "90" },
+            { "title": "Problems", "page": "91" }
+            ] },
+        { "title": "5 Polynomials", "page": "93", "children": [
+            { "title": "5.1 Horner's Method", "page": "94" },
+            { "title": "5.2 Evaluating Derivatives", "page": "96" },
+            { "title": "5.3 The Newton Form and Polynomial Interpolation", "page": "99" },
+            { "title": "5.4 Matrix Polynomials", "page": "102" },
+            { "title": "5.5 Notes and References", "page": "102" },
+            { "title": "Problems", "page": "104" }
+            ] },
+        { "title": "6 Norms", "page": "105", "children": [
+            { "title": "6.1 Vector Norms", "page": "106" },
+            { "title": "6.2 Matrix Norms", "page": "107" },
+            { "title": "6.3 The Matrix p-Norm", "page": "112" },
+            { "title": "6.4 Singular Value Decomposition", "page": "114" },
+            { "title": "6.5 Notes and References", "page": "114" },
+            { "title": "Problems", "page": "115" }
+            ] },
+        { "title": "7 Perturbation Theory for Linear Systems", "page": "119", "children": [
+            { "title": "7.1 Normwise Analysis", "page": "120" },
+            { "title": "7.2 Componentwise Analysis", "page": "122" },
+            { "title": "7.3 Scaling to Minimize the Condition Number", "page": "125" },
+            { "title": "7.4 The Matrix Inverse", "page": "127" },
+            { "title": "7.5 Extensions", "page": "128" },
+            { "title": "7.6 Numerical Stability", "page": "129" },
+            { "title": "7.7 Practical Error Bounds", "page": "130" },
+            { "title": "7.8 Perturbation Theory by Calculus", "page": "132" },
+            { "title": "7.9 Notes and References", "page": "132" },
+            { "title": "Problems", "page": "134" }
+            ] },
+        { "title": "8 Triangular Systems", "page": "139", "children": [
+            { "title": "8.1 Backward Error Analysis", "page": "140" },
+            { "title": "8.2 Forward Error Analysis", "page": "142" },
+            { "title": "8.3 Bounds for the Inverse", "page": "147" },
+            { "title": "8.4 A Parallel Fan-In Algorithm", "page": "149" },
+            { "title": "8.5 Notes and References", "page": "151", "children": [
+                { "title": "8.5.1 LAPACK", "page": "153" }
+                ] },
+            { "title": "Problems", "page": "153" }
+            ] },
+        { "title": "9 LU Factorization and Linear Equations", "page": "157", "children": [
+            { "title": "9.1 Gaussian Elimination and Pivoting Strategies", "page": "158" },
+            { "title": "9.2 LU Factorization", "page": "160" },
+            { "title": "9.3 Error Analysis", "page": "163" },
+            { "title": "9.4 The Growth Factor", "page": "166" },
+            { "title": "9.5 Diagonally Dominant and Banded Matrices", "page": "170" },
+            { "title": "9.6 Tridiagonal Matrices", "page": "174" },
+            { "title": "9.7 More Error Bounds", "page": "176" },
+            { "title": "9.8 Scaling and Choice of Pivot Strategy", "page": "177" },
+            { "title": "9.9 Variants of Gaussian Elimination", "page": "179" },
+            { "title": "9.10 A Posteriori Stability Tests", "page": "180" },
+            { "title": "9.11 Sensitivity of the LU Factorization", "page": "181" },
+            { "title": "9.12 Rank-Revealing LU Factorizations", "page": "182" },
+            { "title": "9.13 Historical Perspective", "page": "183" },
+            { "title": "9.14 Notes and References", "page": "187", "children": [
+                { "title": "9.14.1 LAPACK", "page": "191" }
+                ] },
+            { "title": "Problems", "page": "192" }
+            ] },
+        { "title": "10 Cholesky Factorization", "page": "195", "children": [
+            { "title": "10.1 Symmetric Positive Definite Matrices", "page": "196", "children": [
+                { "title": "10.1.1 Error Analysis", "page": "197" }
+                ] },
+            { "title": "10.2 Sensitivity of the Cholesky Factorization", "page": "201" },
+            { "title": "10.3 Positive Semidefinite Matrices", "page": "201", "children": [
+                { "title": "10.3.1 Perturbation Theory", "page": "203" },
+                { "title": "10.3.2 Error Analysis", "page": "205" }
+                ] },
+            { "title": "10.4 Matrices with Positive Definite Symmetric Part", "page": "208" },
+            { "title": "10.5 Notes and References", "page": "209", "children": [
+                { "title": "10.5.1 LAPACK", "page": "210" }
+                ] },
+            { "title": "Problems", "page": "211" }
+            ] },
+        { "title": "11 Symmetric Indefinite and Skew-Symmetric Systems", "page": "213", "children": [
+            { "title": "11.1 Block LDL^T Factorization for Symmetric Matrices", "page": "214", "children": [
+                { "title": "11.1.1 Complete Pivoting", "page": "215" },
+                { "title": "11.1.2 Partial Pivoting", "page": "216" },
+                { "title": "11.1.3 Rook Pivoting", "page": "219" },
+                { "title": "11.1.4 Tridiagonal Matrices", "page": "221" }
+                ] },
+            { "title": "11.2 Aasen's Method", "page": "222", "children": [
+                { "title": "11.2.1 Aasen's Method Versus Block LDL^T Factorization", "page": "224" }
+                ] },
+            { "title": "11.3 Block LDL^T Factorization for Skew-Symmetric Matrices", "page": "225" },
+            { "title": "11.4 Notes and References", "page": "226", "children": [
+                { "title": "11.4.1 LAPACK", "page": "228" }
+                ] },
+            { "title": "Problems", "page": "228" }
+            ] },
+        { "title": "12 Iterative Refinement", "page": "231", "children": [
+            { "title": "12.1 Behaviour of the Forward Error", "page": "232" },
+            { "title": "12.2 Iterative Refinement Implies Stability", "page": "235" },
+            { "title": "12.3 Notes and References", "page": "240", "children": [
+                { "title": "12.3.1 LAPACK", "page": "242" }
+                ] },
+            { "title": "Problems", "page": "242" }
+            ] },
+    { "title": "13 Block LU Factorization", "page": "245", "children": [
+        { "title": "13.1 Block Versus Partitioned LU Factorization", "page": "246" },
+        { "title": "13.2 Error Analysis of Partitioned LU Factorization", "page": "249" },
+        { "title": "13.3 Error Analysis of Block LU Factorization", "page": "250", "children": [
+            { "title": "13.3.1 Block Diagonal Dominance", "page": "251" },
+            { "title": "13.3.2 Symmetric Positive Definite Matrices", "page": "255" }
+            ] },
+        { "title": "13.4 Notes and References", "page": "256", "children": [
+            { "title": "13.4.1 LAPACK", "page": "257" }
+            ] },
+        { "title": "Problems", "page": "257" }
+        ] },
+    { "title": "14 Matrix Inversion", "page": "259", "children": [
+        { "title": "14.1 Use and Abuse of the Matrix Inverse", "page": "260" },
+        { "title": "14.2 Inverting a Triangular Matrix", "page": "262", "children": [
+            { "title": "14.2.1 Unblocked Methods", "page": "262" },
+            { "title": "14.2.2 Block Methods", "page": "265" }
+            ] },
+        { "title": "14.3 Inverting a Full Matrix by LU Factorization", "page": "267", "children": [
+            { "title": "14.3.1 Method A", "page": "267" },
+            { "title": "14.3.2 Method B", "page": "268" },
+            { "title": "14.3.3 Method C", "page": "269" },
+            { "title": "14.3.4 Method D", "page": "270" },
+            { "title": "14.3.5 Summary", "page": "271" }
+            ] },
+        { "title": "14.4 Gauss-Jordan Elimination", "page": "273" },
+        { "title": "14.5 Parallel Inversion Methods", "page": "278" },
+        { "title": "14.6 The Determinant", "page": "279", "children": [
+            { "title": "14.6.1 Hyman's Method", "page": "280" }
+            ] },
+        { "title": "14.7 Notes and References", "page": "281", "children": [
+            { "title": "14.7.1 LAPACK", "page": "282" }
+            ] },
+        { "title": "Problems", "page": "283" }
+        ] },
+    { "title": "15 Condition Number Estimation", "page": "287", "children": [
+        { "title": "15.1 How to Estimate Componentwise Condition Numbers", "page": "288" },
+        { "title": "15.2 The p-Norm Power Method", "page": "289" },
+        { "title": "15.3 LAPACK 1-Norm Estimator", "page": "292" },
+        { "title": "15.4 Block 1-Norm Estimator", "page": "294" },
+        { "title": "15.5 Other Condition Estimators", "page": "295" },
+        { "title": "15.6 Condition Numbers of Tridiagonal Matrices", "page": "299" },
+        { "title": "15.7 Notes and References", "page": "301", "children": [
+            { "title": "15.7.1 LAPACK", "page": "303" }
+            ] },
+        { "title": "Problems", "page": "303" }
+        ] },
+    { "title": "16 The Sylvester Equation", "page": "305", "children": [
+        { "title": "16.1 Solving the Sylvester Equation", "page": "307" },
+        { "title": "16.2 Backward Error", "page": "308", "children": [
+            { "title": "16.2.1 The Lyapunov Equation", "page": "311" }
+            ] },
+        { "title": "16.3 Perturbation Result", "page": "313" },
+        { "title": "16.4 Practical Error Bounds", "page": "315" },
+        { "title": "16.5 Extensions", "page": "316" },
+        { "title": "16.6 Notes and References", "page": "317", "children": [
+            { "title": "16.6.1 LAPACK", "page": "318" }
+            ] },
+        { "title": "Problems", "page": "318" }
+        ] },
+    { "title": "17 Stationary Iterative Methods", "page": "321", "children": [
+        { "title": "17.1 Survey of Error Analysis", "page": "323" },
+        { "title": "17.2 Forward Error Analysis", "page": "325", "children": [
+            { "title": "17.2.1 Jacobi's Method", "page": "328" },
+            { "title": "17.2.2 Successive Overrelaxation", "page": "329" }
+            ] },
+        { "title": "17.3 Backward Error Analysis", "page": "330" },
+        { "title": "17.4 Singular Systems", "page": "331", "children": [
+            { "title": "17.4.1 Theoretical Background", "page": "331" },
+            { "title": "17.4.2 Forward Error Analysis", "page": "333" }
+            ] },
+        { "title": "17.5 Stopping an Iterative Method", "page": "335" },
+        { "title": "17.6 Notes and References", "page": "337" },
+        { "title": "Problems", "page": "337" }
+        ] },
+    { "title": "18 Matrix Powers", "page": "339", "children": [
+        { "title": "18.1 Matrix Powers in Exact Arithmetic", "page": "340" },
+        { "title": "18.2 Bounds for Finite Precision Arithmetic", "page": "346" },
+        { "title": "18.3 Application to Stationary Iteration", "page": "351" },
+        { "title": "18.4 Notes and References", "page": "351" },
+        { "title": "Problems", "page": "352" }
+        ] },
+    { "title": "19 QR Factorization", "page": "353", "children": [
+        { "title": "19.1 Housholder Transformations", "page": "354" },
+        { "title": "19.2 QR Factorization", "page": "355" },
+        { "title": "19.3 Error Analysis of Householder Computations", "page": "357" },
+        { "title": "19.4 Pivoting and Row-Wise Stability", "page": "362" },
+        { "title": "19.5 Aggregated Householder Transformations", "page": "363" },
+        { "title": "19.6 Givens Rotations", "page": "365" },
+        { "title": "19.7 Iterative Refinement", "page": "368" },
+        { "title": "19.8 Gram-Schmidt Orthogonalization", "page": "369" },
+        { "title": "19.9 Sensitivity of the QR Factorization", "page": "373" },
+        { "title": "19.10 Notes and References", "page": "374", "children": [
+            { "title": "19.10.1 LAPACK", "page": "377" }
+            ] },
+        { "title": "Problems", "page": "378" }
+        ] },
+    { "title": "20 The Least Squares Problem", "page": "381", "children": [
+        { "title": "20.1 Perturbation Theory", "page": "382" },
+        { "title": "20.2 Solution by QR Factorization", "page": "384" },
+        { "title": "20.3 Solution by the Modified Gram-Schmidt Method", "page": "386" },
+        { "title": "20.4 The Normal Equations", "page": "386" },
+        { "title": "20.5 Iterative Refinement", "page": "388" },
+        { "title": "20.6 The Seminormal Equations", "page": "391" },
+        { "title": "20.7 Backward Error", "page": "392" },
+        { "title": "20.8 Weighted Least Squares Problems", "page": "395" },
+        { "title": "20.9 The Equality Constrained Least Squares Problem", "page": "396", "children": [
+            { "title": "20.9.1 Perturbation Theory", "page": "396" },
+            { "title": "20.9.2 Methods", "page": "397" }
+            ] },
+        { "title": "20.10 Proof of Wedin's Theorem", "page": "400" },
+        { "title": "20.11 Notes and References", "page": "402", "children": [
+            { "title": "20.11.1 LAPACK", "page": "405" }
+            ] },
+        { "title": "Problems", "page": "405" }
+        ] },
+    { "title": "21 Underdetermined Systems", "page": "407", "children": [
+        { "title": "21.1 Solution Methods", "page": "408" },
+        { "title": "21.2 Perturbation Theory and Backward Error", "page": "409" },
+        { "title": "21.3 Error Analysis", "page": "411" },
+        { "title": "21.4 Notes and References", "page": "413", "children": [
+            { "title": "21.4.1 LAPACK", "page": "414" }
+            ] },
+        { "title": "Problems", "page": "414" }
+        ] },
+    { "title": "22 Vandermonde Systems", "page": "415", "children": [
+        { "title": "22.1 Matrix Inversion", "page": "416" },
+        { "title": "22.2 Primal and Dual Systems", "page": "418" },
+        { "title": "22.3 Stability", "page": "423", "children": [
+            { "title": "22.3.1 Forward Error", "page": "424" },
+            { "title": "22.3.2 Residual", "page": "425" },
+            { "title": "22.3.3 Dealing with Instability", "page": "426" }
+            ] },
+        { "title": "22.4 Notes and References", "page": "428" },
+        { "title": "Problems", "page": "430" }
+        ] },
+    { "title": "23 Fast Matrix Multiplication", "page": "433", "children": [
+        { "title": "23.1 Methods", "page": "434" },
+        { "title": "23.2 Error Analysis", "page": "438", "children": [
+            { "title": "23.2.1 Winograd's Method", "page": "439" },
+            { "title": "23.2.2 Strassen's Method", "page": "440" },
+            { "title": "23.2.3 Bilinear Noncommutative Algorithms", "page": "443" },
+            { "title": "23.2.4 The 3M Method", "page": "444" }
+            ] },
+        { "title": "23.3 Notes and References", "page": "446" },
+        { "title": "Problems", "page": "448" }
+        ] },
+    { "title": "24 The Fast Fourier Transform and Applications", "page": "451", "children": [
+        { "title": "24.1 The Fast Fourier Transform", "page": "452" },
+        { "title": "24.2 Circulant Linear Systems", "page": "454" },
+        { "title": "24.3 Notes and References", "page": "456" },
+        { "title": "Problems", "page": "457" }
+        ] },
+    { "title": "25 Nonlinear Systems and Newton's Method", "page": "459", "children": [
+        { "title": "25.1 Newton's Method", "page": "460" },
+        { "title": "25.2 Error Analysis", "page": "461" },
+        { "title": "25.3 Special Cases and Experiments", "page": "462" },
+        { "title": "25.4 Conditioning", "page": "464" },
+        { "title": "25.5 Stopping an Iterative Method", "page": "467" },
+        { "title": "25.6 Notes and References", "page": "468" },
+        { "title": "Problems", "page": "469" }
+        ] },
+    { "title": "26 Automatic Error Analysis", "page": "471", "children": [
+        { "title": "26.1 Exploiting Direct Search Optimization", "page": "472" },
+        { "title": "26.2 Direct Search Methods", "page": "474" },
+        { "title": "26.3 Examples of Direct Search", "page": "477", "children": [
+            { "title": "26.3.1 Condition Estimation", "page": "477" },
+            { "title": "26.3.2 Fast Matrix Inversion", "page": "478" },
+            { "title": "26.3.3 Roots of a Cubic", "page": "479" }
+            ] },
+        { "title": "26.4 Interval Analysis", "page": "281" },
+        { "title": "26.5 Other Work", "page": "484" },
+        { "title": "26.6 Notes and References", "page": "486" },
+        { "title": "Problems", "page": "487" }
+        ] },
+    { "title": "27 Software Issues in Floating Point Arithmetic", "page": "489", "children": [
+        { "title": "27.1 Exploiting IEEE Arithmetic", "page": "490" },
+        { "title": "27.2 Subtleties of Floating Point Arithmetic", "page": "493" },
+        { "title": "27.3 Cray Peculiarities", "page": "493" },
+        { "title": "27.4 Compilers", "page": "494" },
+        { "title": "27.5 Determining Properties of Floating Point Arithmetic", "page": "494" },
+        { "title": "27.6 Testing a Floating Point Arithmetic", "page": "495" },
+        { "title": "27.7 Portability", "page": "496", "children": [
+            { "title": "27.7.1 Arithmetic Parameters", "page": "496" },
+            { "title": "27.7.2 2x2 Problems in LAPACK", "page": "497" },
+            { "title": "27.7.3 Numerical Constants", "page": "498" },
+            { "title": "27.7.4 Models of Floating Point Arithmetic", "page": "498" }
+            ] },
+        { "title": "27.8 Avoiding Underflow and Overflow", "page": "499" },
+        { "title": "27.9 Multiple Precision Arithmetic", "page": "501" },
+        { "title": "27.10 Extended and Mixed Precision BLAS", "page": "503" },
+        { "title": "27.11 Patriot Missile Software Problem", "page": "503" },
+        { "title": "27.12 Notes and References", "page": "504" },
+        { "title": "Problems", "page": "505" }
+        ] },
+    { "title": "28 A Gallery of Test Matrices", "page": "511", "children": [
+        { "title": "28.1 The Hilbert and Cauchy Matrices", "page": "512" },
+        { "title": "28.2 Random Matrices", "page": "515" },
+        { "title": "28.3 \"Randsvd\" Matrices", "page": "517" },
+        { "title": "28.4 The Pascal Matrix", "page": "518" },
+        { "title": "28.5 Tridiagonal Toeplitz Matrices", "page": "521" },
+        { "title": "28.6 Companion Matrices", "page": "522" },
+        { "title": "28.7 Notes and References", "page": "523", "children": [
+            { "title": "28.7.1 LAPACK", "page": "525" }
+            ] },
+        { "title": "Problems", "page": "525" }
+        ] },
+    { "title": "A Solutions to Problems", "page": "527" },
+    { "title": "B Acquiring Software", "page": "573", "children": [
+        { "title": "B.1 Internet", "page": "574" },
+        { "title": "B.2 Netlib", "page": "574" },
+        { "title": "B.3 MATLAB", "page": "575" },
+        { "title": "B.4 NAG Library and NAGWare F95 Compiler", "page": "575" }
+        ] },
+    { "title": "C Program Libraries", "page": "577", "children": [
+        { "title": "C.1 Basic Linear Algebra Subprograms", "page": "578" },
+        { "title": "C.2 EISPACK", "page": "579" },
+        { "title": "C.3 LINPACK", "page": "579" },
+        { "title": "C.4 LAPACK", "page": "579", "children": [
+            { "title": "C.4.1 Structure of LAPACK", "page": "580" }
+            ] }
+        ] },
+    { "title": "D The Matrix Computation Toolbox", "page": "583" },
+    { "title": "Bibliography", "page": "587" },
+    { "title": "Name Index", "page": "657" },
+    { "title": "Subject Index", "page": "667" }
+    ]
+}
