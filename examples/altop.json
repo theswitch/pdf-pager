@@ -1,0 +1,141 @@
+{
+    "PageLabels": [
+        {
+            "style": "r",
+            "start": 4,
+            "pageStart": 1
+        },
+        {
+            "style": "D",
+            "pageStart": 10
+        }
+    ],
+    "Outlines": [
+        { "title": "Table of Contents", "page": "vi" },
+        { "title": "Preface", "page": "ix", "children": [
+            { "title": "Standard Notations", "page": "xii" }
+        ] },
+        { "title": "Chapter 0. Some Underlying Geometric Notions", "page": "1", "children": [
+            { "title": "Homotopy and Homotopy Type", "page": "1" },
+            { "title": "Cell Complexes", "page": "5" },
+            { "title": "Operations on Spaces", "page": "8" },
+            { "title": "Two Criteria for Homotopy Equivalence", "page": "10" },
+            { "title": "The Homotopy Extension Property", "page": "14" }
+        ] },
+        { "title": "Chapter 1. The Fundamental Group", "page": "21", "children": [
+            { "title": "1.1. Basic Constructions", "page": "25", "children": [
+                { "title": "Paths and Homotopy", "page": "25" },
+                { "title": "The Fundamental Group of the Circle", "page": "29" },
+                { "title": "Induced Homomorphisms", "page": "34" }
+            ] },
+            { "title": "1.2. Van Kampen's Theorem", "page": "40", "children": [
+                { "title": "Free Products of Groups", "page": "41" },
+                { "title": "The van Kampen Theorem", "page": "43" },
+                { "title": "Applications to Cell Complexes", "page": "50" }
+            ] },
+            { "title": "1.3. Covering Spaces", "page": "56", "children": [
+                { "title": "Lifting Properties", "page": "60" },
+                { "title": "The Classification of Covering Spaces", "page": "63" },
+                { "title": "Deck Transformations and Group Actions", "page": "70" }
+            ] },
+            { "title": "Additional Topics", "children": [
+                { "title": "1.A. Graphs and Free Groups", "page": "83" },
+                { "title": "1.B. K(G,1) Spaces and Graphs of Groups", "page": "87" }
+            ] }
+        ] },
+        { "title": "Chapter 2. Homology", "page": "97", "children": [
+            { "title": "2.1. Simplical and Singular Homology", "page": "102", "children": [
+                { "title": "Δ-Complexes", "page": "102" },
+                { "title": "Simplical Homology", "page": "104" },
+                { "title": "Singular Homology", "page": "108" },
+                { "title": "Homotopy Invariance", "page": "110" },
+                { "title": "Exact Sequences and Excision", "page": "113" },
+                { "title": "The Equivalence of Simplical and Singular Homology", "page": "128" }
+            ] },
+            { "title": "2.2. Computations and Applications", "page": "134", "children": [
+                { "title": "Degree", "page": "134" },
+                { "title": "Cellular Homology", "page": "137" },
+                { "title": "Mayer-Vietoris Sequences", "page": "149" },
+                { "title": "Homology with Coefficients", "page": "153" }
+            ] },
+            { "title": "2.3. The Formal Viewpoint", "page": "160", "children": [
+                { "title": "Axioms for Homology", "page": "160" },
+                { "title": "Categories and Functors", "page": "162" }
+            ] },
+            { "title": "Additional Topics", "children": [
+                { "title": "2.A. Homology and Fundamental Group", "page": "166" },
+                { "title": "2.B. Classical Applications", "page": "169" },
+                { "title": "2.C. Simplical Approximation", "page": "177" }
+            ] }
+        ] },
+        { "title": "Chapter 3. Cohomology", "page": "185", "children": [
+            { "title": "3.1. Cohomology Groups", "page": "190", "children": [
+                { "title": "The Universal Coefficient Theorem", "page": "190" },
+                { "title": "Cohomology of Spaces", "page": "197" }
+            ] },
+            { "title": "3.2. Cup Product", "page": "206", "children": [
+                { "title": "The Cohomology Ring", "page": "211" },
+                { "title": "A Künneth Formula", "page": "218" },
+                { "title": "Spaces with Polynomial Cohomology", "page": "224" }
+            ] },
+            { "title": "3.3. Poincaré Duality", "page": "230", "children": [
+                { "title": "Orientations and Homology", "page": "233" },
+                { "title": "The Duality Theorem", "page": "239" },
+                { "title": "Connection with Cup Product", "page": "249" },
+                { "title": "Other Forms of Duality", "page": "252" }
+            ] },
+            { "title": "Additional Topics", "children": [
+                { "title": "3.A. Universal Coefficients for Homology", "page": "261" },
+                { "title": "3.B. The General Künneth Formula", "page": "268" },
+                { "title": "3.C. H-Spaces and Hopf Algebras", "page": "281" },
+                { "title": "3.D. The Cohomology of SO(n)", "page": "292" },
+                { "title": "3.E. Bockstein Homomorphisms", "page": "303" },
+                { "title": "3.F. Limits and Ext", "page": "311" },
+                { "title": "3.G. Transfer Homomorphisms", "page": "321" },
+                { "title": "3.H. Local Coefficients", "page": "327" }
+            ] }
+        ] },
+        { "title": "Chapter 4. Homotopy Theory", "page": "337", "children": [
+            { "title": "4.1. Homotopy Groups", "page": "339", "children": [
+                { "title": "Definitions and Basic Constructions", "page": "340" },
+                { "title": "Whitehead's Theorem", "page": "346" },
+                { "title": "Cellular Approximation", "page": "348" },
+                { "title": "CW Approximation", "page": "352" }
+            ] },
+            { "title": "4.2. Elementary Methods of Calculation", "page": "360", "children": [
+                { "title": "Excision for Homotopy Groups", "page": "360" },
+                { "title": "The Hurewicz Theorem", "page": "366" },
+                { "title": "Fiber Bundles", "page": "375" },
+                { "title": "Stable Homotopy Groups", "page": "384" }
+            ] },
+            { "title": "4.3. Connections with Cohomology", "page": "393", "children": [
+                { "title": "The Homotopy Construction of Cohomology", "page": "393" },
+                { "title": "Fibrations", "page": "405" },
+                { "title": "Postnikov Towers", "page": "410" },
+                { "title": "Obstruction Theory", "page": "415" }
+            ] },
+            { "title": "Additional Topics", "children": [
+                { "title": "4.A. Basepoints and Homotopy", "page": "421" },
+                { "title": "4.B. The Hopf Invariant", "page": "427" },
+                { "title": "4.C. Minimal Cell Structures", "page": "429" },
+                { "title": "4.D. Cohomology of Fiber Bundles", "page": "431" },
+                { "title": "4.E. The Brown Representability Theorem", "page": "448" },
+                { "title": "4.F. Spectra and Homology Theories", "page": "452" },
+                { "title": "4.G. Gluing Constructions", "page": "456" },
+                { "title": "4.H. Eckmann-Hilton Duality", "page": "460" },
+                { "title": "4.I. Stable Splittings of Spaces", "page": "466" },
+                { "title": "4.J. The Loopspace of a Suspension", "page": "470" },
+                { "title": "4.K. The Dold-Thom Theorem", "page": "475" },
+                { "title": "4.L. Steenrod Squares and Powers", "page": "487" }
+            ] }
+        ] },
+        { "title": "Appendix", "page": "519", "children": [
+            { "title": "Topology of Cell Complexes", "page": "519" },
+            { "title": "The Compact-Open Topology", "page": "529" },
+            { "title": "The Homotopy Extension Property", "page": "532" },
+            { "title": "Simplical CW Structures", "page": "533" }
+        ] },
+        { "title": "Bibliography", "page": "539" },
+        { "title": "Index", "page": "545" }
+    ]
+}
